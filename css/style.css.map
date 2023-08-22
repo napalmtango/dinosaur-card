@@ -1,1 +1,1 @@
-{"version":3,"sources":["style.scss","style.css"],"names":[],"mappings":"AAAA;EACE,SAAA;EACA,UAAA;EACA,sBAAA;ACCF","file":"style.css"}
+{"version":3,"sources":["_barlow.scss","style.scss","style.css"],"names":[],"mappings":"AAAQ,2MAAA;ACER;EACE,SAAA;EACA,UAAA;EACA,sBAAA;ACAF;;ADGA;EACE,2CAAA;ACAF;;ADGA;EACE,gCAAA;EACA,UAAA;EACA,YAAA;ACAF;;ADGA;EACE,iDAAA;ACAF;;ADGA;EACE,aAAA;ACAF;;ADGA;EACE,oBAAA;ACAF;;ADGA;EACE,WAAA;ACAF","file":"style.css"}

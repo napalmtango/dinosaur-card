@@ -1,5 +1,33 @@
+@use "barlow";
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.vert-rule {
+  border-left: 2px dotted darkgray;
+  width: 1px;
+  height: 40px;
+}
+
+.name {
+  font-family: 'Shadows Into Light Two', sans-serif;
+}
+
+.header-flexbox {
+  display: flex;
+}
+
+h1 {
+  color: palevioletred;
+}
+
+h2 {
+  color: gray;
 }
