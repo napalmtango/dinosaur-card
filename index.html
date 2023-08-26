@@ -4,46 +4,51 @@
   <link rel="stylesheet" href="css/style.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dinosaur Card</title>
+  <title>Dinosaur Card Modal</title>
 </head>
 <body>
 
-  <div class="card">
-  <!-- header animation -->
-  <!-- Dinosaur of the day -->
-    <header>
-      <div class="header-flexbox">
-        <h2>Dinosaur of the day</h2>
-        <div class="vert-rule"></div>
-        <h1 class="name">Tyranasaurus Rex</h1>
-      </div> 
-    </header>
-    <main>
-      <div class="main-grid">
-        <div class="img-frame">
-          <img src="images/trex_400x304.jpg" alt="Image of Tyranasaurus Rex on the hunt">
-        </div>
-        <div class="info">TRANSLATION:<br>          TYRANT LIZARD<br><br>
-          CARNIVORE<br><br>
-          CRETACEOUS ERA
-        </div>
-        <h3>Tyranasaurus Rex</h3>
-        <div></div>
-        <p class="caption">
-          Always a crowd favorite, the Iconic "T-Rex" is rated the most popular dinosaur according to poll.
-        </p>
-      </div> <!--end main-grid-->
-      
-    </main>
-    <footer></footer>
+  
+<!-- Trigger/Open The Modal -->
+<button id="myBtn">Open Modal</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Some text in the Modal..</p>
   </div>
 
-<!-- main -->
+</div>
 
-<!-- heading -->
-<!-- copy -->
-<!-- img -->
-<!-- close button -->
+<script>
+  // Get the modal
+var modal = document.getElementById("myModal");
 
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
 </body>
 </html>
