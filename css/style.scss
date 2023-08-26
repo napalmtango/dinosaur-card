@@ -59,7 +59,8 @@ h3 {
 }
 
 header {
-  background-color: hsla(0, 0%, 94%, 0.446);
+  background-image: linear-gradient(rgb(220, 220, 220), rgb(255, 255, 255), rgb(220, 220, 220));
+  // background-color: hsla(0, 0%, 94%, 0.446);
   padding: 1.2em $padleft .75em;
   border-bottom: 1px solid rgba(0, 0, 0, .15);
 }
